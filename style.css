@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  background-color: #f7f9ff;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+button {
+  cursor: pointer;
+  padding: 5px 24px;
+  border: none;
+  margin: 0 10px;
+  background-color: rgb(205, 138, 12);
+  font-size: 18px;
+  color: #fff;
+  border-radius: 5px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
